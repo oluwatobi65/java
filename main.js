@@ -47,13 +47,13 @@ function setBgGreet(){
 		greeting.textContent= 'Good morning';
 		document.body.style.backgroundSize='Cover';
 
-	} else if (hour < 18) {
+	} else if (hour < 20) {
 		// afternoon
 		document.body.style.backgroundImage="url(afternoon.jpg)";
 		greeting.textContent= 'Good afternoon';
 		document.body.style.backgroundSize='Cover';
 	} else{ // evening
-		document.body.style.backgroundImage="url(evening.jpg)";
+		document.body.style.backgroundImage="url(night.jpg)";
 		greeting.textContent= 'Good Evening';
 		document.body.style.color= 'white';
 		document.body.style.backgroundSize='Cover';
